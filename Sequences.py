@@ -198,7 +198,7 @@ def operar(x):
 
 if len(sucesion) >= 2:
 
-    browser = browser = webdriver.Chrome(executable_path="./chromedriver")
+    browser = webdriver.Chrome(executable_path="./chromedriver")
 
     for x in range(len(sucesion)):
 
