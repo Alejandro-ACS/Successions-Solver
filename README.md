@@ -4,9 +4,9 @@ This program generates a formula for any numerical sequence you enter.
 # Requeriments
 You need to install the time, os and selenium libraries with the nexts command.
 ```bash
-pip install time
+pip install python-time
 
-pip install os
+pip install os-win
 
 pip install selenium
 ```
