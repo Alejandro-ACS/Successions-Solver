@@ -194,13 +194,21 @@ def main():
 
                 decimal = sacar_parte_decimal(numero)
 
-                if decimal[len(decimal)-2] != decimal[len(decimal)-3]:
+                if len(decimal) > 5:
 
-                    equis_p.append(numero)
-                
+                    if decimal[len(decimal)-2] != decimal[len(decimal)-3]:
+
+                        equis_p.append(numero)
+                    
+                    else:
+
+                        equis_p.append(str(calcular_generatriz(float(str(numero)[:-1]))[0])+"/"+str(calcular_generatriz(float(str(numero)[:-1]))[1]))
+                    
                 else:
 
-                    equis_p.append(str(calcular_generatriz(float(str(numero)[:-1]))[0])+"/"+str(calcular_generatriz(float(str(numero)[:-1]))[1]))
+                    equis_p.append(numero)
+
+                    
 
     return imprimir_formula(sucesion)
 
