@@ -6,3 +6,5 @@ You just need to download the Sucesiones.py file and run it with the following c
 ```bash
 python Sucesiones.py
 ```
+Or you can run it on Google Colab.
+https://colab.research.google.com/drive/1U4NHZA3t8Lq984w7kP8RLrY14XekjxvR?usp=sharing
